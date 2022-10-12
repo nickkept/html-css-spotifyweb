@@ -1,0 +1,56 @@
+/* SM - small */
+@media screen and (min-width: 568px) {
+    .sidebar {
+    width: 250px;
+    }
+
+    .sidebar .middle-section .playlist-container {
+    display: block;
+    }
+
+    .sidebar .sidebar-list a {
+    justify-content: flex-start;
+    }
+
+    .sidebar .sidebar-list .main-logo {
+    font-size: 2rem;
+    }
+
+    .sidebar .sidebar-list .logo-small {
+    display: none;
+    }
+
+    .sidebar .sidebar-list .logo-large {
+    display: flex;
+    }
+
+    .sidebar .sidebar-list .list-item-icon {
+    margin-right: 1rem;
+    }
+
+    .sidebar .sidebar-list .list-item-text {
+    display: block;
+    }
+    .list-item-img{
+        height: 15%;
+        width: 15%;
+    }
+    .col-sm-1_2{
+        flex-basis: calc(100% / 2);
+    }
+}
+
+  /* MD - medium */
+@media screen and (min-width: 768px) {
+    .col-md-1_4{
+        flex-basis: calc(100% / 4)
+    }
+}
+
+  /* LG - large */
+@media screen and (min-width: 992px) {
+    .col-lg-1_6{
+        flex-basis: calc(100% / 6);
+    }
+    
+}
