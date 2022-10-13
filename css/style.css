@@ -23,10 +23,11 @@ body {
 
 .row{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 .top-container {
     flex-grow: 1;
+    overflow: auto;
     display: flex;
 }
 
@@ -94,6 +95,7 @@ body {
 
 .main-container {
     flex-grow: 1;
+    overflow: auto;
     background-color: #141922;
 }
 
@@ -101,6 +103,14 @@ body {
     display: flex;
     justify-content: flex-end;
     background-color: #090B12;
+    padding: 1.3rem 0;
+}
+.btn-upg{
+    color: white;
+    background-color: #090B12;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 0.8rem 2.5rem;
 }
 .tab-container a{
     color: var(--color-primary);
@@ -160,7 +170,36 @@ body {
     width: 100%;
 
 }
+.img-container-circ img{
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
 
 .card{
     text-align: center;
 }   
+
+.color-primary{
+    color: var(--color-primary);
+}
+.card h3{
+    padding: 0.5rem 0 ;
+}
+.card-section h2{
+    padding: 1rem 0.5rem;
+}
+.card{
+    padding: 0.5rem;
+}
+.row-sub{
+    padding: 0.5rem 0.5rem;
+}
+.green-bar{
+    height: 2px;
+    width: 40%;
+    color: lime;
+}
