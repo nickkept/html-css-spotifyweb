@@ -21,12 +21,6 @@ body {
     flex-direction: column;
 }
 
-body > *,
-.top-container > *,
-.sidebar > *,
-.sidebar .sidebar-list a {
-    border: 1px dashed rgb(14, 0, 211);
-}
 .row{
     display: flex;
     
@@ -169,4 +163,4 @@ body > *,
 
 .card{
     text-align: center;
-}
+}   
