@@ -31,12 +31,18 @@
     .sidebar .sidebar-list .list-item-text {
     display: block;
     }
+    .list-item-text-user {
+        display: block;
+    }
     .list-item-img{
         height: 15%;
         width: 15%;
     }
     .col-sm-1_2{
         flex-basis: calc(100% / 2);
+    }
+    .profile-circ{
+        width: 10%;
     }
 }
 

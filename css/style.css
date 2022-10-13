@@ -79,17 +79,32 @@ body {
     width: 100%;
     height: auto;
 }
-
+.profile{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    
+}
+.profile-circ{
+    width: 65%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: gray;
+}
 
 .sidebar .sidebar-list a {
     display: flex;
-    padding: 1rem;
+    padding: .8rem;
     justify-content: center;
     align-items: center;
     text-decoration: none;
 }
 
 .sidebar .sidebar-list .list-item-text {
+    display: none;
+}
+.list-item-text-user{
     display: none;
 }
 
@@ -132,14 +147,46 @@ body {
     color: var(--color-primary);
     font-size: 1.5rem;
 }
-
+.icn-small{
+    font-size: 1rem;
+}
+.icn-user{
+    background-color: gray;
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    aspect-ratio: 1 / 1;
+}
+.icn-user .list-item-icon-user i{
+    margin-left: 6px;
+    margin-top: 6px;
+    color: white;
+    font-size: 1.5rem;
+}
+.list-item-icon-play{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}   
+.playlist-icon{
+    background-color: gray;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.8rem;
+    
+}
 .list-item-text{
     color: var(--color-primary);
+}
+.list-item-text-user{
+    padding-left: 1rem;
 }
 
 .hr-type{
     height: 1px;
+    width: 80%;
     background-color: var(--color-primary);
+    margin-left: 1rem ;
 }
 
 .list-item-img{
@@ -202,4 +249,7 @@ body {
     height: 2px;
     width: 40%;
     color: lime;
+}
+.playlist-container h3{
+    padding-left: 1rem;
 }
