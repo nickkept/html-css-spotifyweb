@@ -35,6 +35,7 @@ body {
     flex-shrink: 0;
     height: 100px;
     background-color: #282828;
+    display: flex;
 }
 
 .sidebar {
@@ -87,6 +88,7 @@ body {
     
 }
 .profile-circ{
+    display: block;
     width: 65%;
     border-radius: 50%;
     aspect-ratio: 1/1;
@@ -252,4 +254,45 @@ body {
 }
 .playlist-container h3{
     padding-left: 1rem;
+}
+.btm-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btm-left i {
+    padding: 0 0.5rem;
+}
+.song-img img{
+    display: block;
+    width: 4.5vw;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+.song-img{
+    padding: 0 0.5rem;
+}
+.song-description{
+    padding-right: 2rem;
+}
+.song-icons{
+    display: flex;
+}
+.btm-top-icons{
+    display: flex;
+}
+.btm-bar{
+    display: flex;
+}
+.btm-right{
+    display: flex;
+}
+.sound-icons{
+    display: flex;
+}
+.progress-bg{
+    background-color: red;
+    height: 50px;
+    width: 70%;
+
 }
