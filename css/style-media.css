@@ -51,6 +51,20 @@
     .col-md-1_4{
         flex-basis: calc(100% / 4);
     }
+    .song-icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .btm-top-icons i{
+        padding: 0 1rem;
+    }
+    .progress-container {
+        padding: 1rem;
+        position: relative;
+    }
+    .sound-icons i{
+        padding: 0 1rem;
+    }
 }
 
   /* LG - large */

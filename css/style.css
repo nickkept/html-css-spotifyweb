@@ -124,6 +124,8 @@ body {
     justify-content: flex-end;
     background-color: #090B12;
     padding: 1.3rem 0;
+    position: sticky;
+    top: 0;
 }
 .btn-upg{
     color: white;
@@ -283,6 +285,7 @@ body {
     width: 4.5vw;
     height: auto;
     aspect-ratio: 1 / 1;
+    min-width: 30px;
 }
 .song-img{
     padding: 0 0.5rem;
@@ -292,6 +295,16 @@ body {
 }
 .song-icons{
     display: flex;
+    flex-direction: column;
+    
+}
+.song-icons i{
+    padding-bottom: 0.3rem;
+}
+.song-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .song-time{
     font-size: 0.5rem;
@@ -304,7 +317,7 @@ body {
     padding-top: 1rem;
 }
 .btm-top-icons i{
-    padding: 0 1rem;
+    padding: 0 .5rem;
 }
 .btm-bar{
     display: flex;
@@ -318,17 +331,17 @@ body {
     display: flex;
 }
 .sound-icons i{
-    padding: 0 1rem;
+    padding: 0 0.3rem;
 }
 
 .progress-bg {
     height: 4px;
     border-radius: 2px;
     background-color: grey;
-    width: 40vw;
+    width: 25vw;
 }
 .progress-container {
-    padding: 1rem;
+    padding: 1rem 0.3rem;
     position: relative;
 }
 
